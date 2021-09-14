@@ -128,7 +128,6 @@ export default function App() {
         <ParallaxLayer
           offset={0}
           speed={0.1}
-          onClick={() => parallax.current.scrollTo(1)}
           style={{
             display: "flex",
             alignItems: "center",
@@ -151,6 +150,30 @@ export default function App() {
             <h3>
               Den er for tiden under oppdatering, men stay tuned for reveal
             </h3>
+            <div>
+              <a
+                style={{
+                  color: "black",
+                  padding: "0px 10px",
+                  fontSize: "1.3em",
+                }}
+                href="https://github.com/hannekodegard"
+                target="_blank"
+              >
+                Github
+              </a>
+              <a
+                style={{
+                  color: "black",
+                  padding: "0px 10px",
+                  fontSize: "1.3em",
+                }}
+                target="_blank"
+                href="./cv_Hanne_Ødegård.pdf"
+              >
+                CV
+              </a>
+            </div>
           </div>
         </ParallaxLayer>
 
