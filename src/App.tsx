@@ -171,6 +171,7 @@ export default function App() {
                 }}
                 href="https://github.com/hannekodegard"
                 target="_blank"
+                rel="noreferrer"
               >
                 Github
               </a>
@@ -182,6 +183,7 @@ export default function App() {
                 }}
                 target="_blank"
                 href="./cv_Hanne_Ødegård.pdf"
+                rel="noreferrer"
               >
                 CV
               </a>
